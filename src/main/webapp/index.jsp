@@ -19,6 +19,7 @@
     <body>
         <div class="container"> 
             <h1>Hello World from JSP!</h1>
+            <p>Esta linea es un cambio desde el servidor virtual</p>
             <%! String hola = "Prueba de JSP"; %>
             <p><%=hola%></p>
             <% List<String> nombres = new ArrayList<String>(); 
